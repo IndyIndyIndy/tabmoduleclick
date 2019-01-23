@@ -8,8 +8,3 @@ This is because clicks in the module menu are only handled via javascript and us
 This extension fixes this behaviour and makes working with the TYPO3 backend for middle mouse button users a lot more comfortable.
 
 Currently support TYPO3 8.7 and 9.5 LTS
-
-@TODO:
-- test in different environments
-- packagist
-- ter
