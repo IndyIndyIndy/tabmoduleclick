@@ -10,8 +10,7 @@
  ***/
 
 /**
- * Goes through all module links and replaces the '#' in href with the actual link + an extra parameter "tx_tabmoduleclick"
- * That way we can avoid having to open new tabs via javascript
+ * TabModuleClick handling
  */
 define(["require", "exports", "jquery"], function(e, t, $) {
     "use strict";
