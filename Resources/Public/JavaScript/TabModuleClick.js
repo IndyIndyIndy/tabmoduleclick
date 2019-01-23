@@ -94,7 +94,14 @@ define(["jquery", "TYPO3/CMS/Backend/ModuleMenu"], function($, ModuleMenu ) {
      * @param {string} id
      */
     TabModuleClick.openSubModule = function (id) {
-        ModuleMenu.App.showModule(id);
+        if (typeof ModuleMenu !== 'undefined') {
+            ModuleMenu.App.showModule(id);
+        } else {
+            // fallback for TYPO3 8.7
+            setTimeout(function () {
+                $('#'+id).trigger('click');
+            }, 500);
+        }
     };
 
     /**
