@@ -12,7 +12,7 @@
 /**
  * TabModuleClick handling
  */
-define(["require", "exports", "jquery"], function(e, t, $) {
+define(["jquery", "TYPO3/CMS/Backend/ModuleMenu"], function($, ModuleMenu ) {
     "use strict";
 
     var TabModuleClick = {
@@ -94,9 +94,7 @@ define(["require", "exports", "jquery"], function(e, t, $) {
      * @param {string} id
      */
     TabModuleClick.openSubModule = function (id) {
-        setTimeout(function () {
-            $('#'+id).trigger('click');
-        }, 500);
+        ModuleMenu.App.showModule(id);
     };
 
     /**
