@@ -10,7 +10,6 @@ This extension fixes this behaviour and makes working with the TYPO3 backend for
 Currently support TYPO3 8.7 and 9.5 LTS
 
 @TODO:
-- ext_icon
 - test in different environments
 - packagist
 - ter
