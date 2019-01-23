@@ -1,0 +1,37 @@
+{
+    "name": "christianessl/tabmoduleclick",
+    "type": "typo3-cms-extension",
+    "description": "Open modules in TYPO3 backend in a new browser tab (middle mouse button) and get directed to the intended submodule.",
+    "keywords": [
+        "TYPO3",
+        "extension",
+        "backend",
+        "modules",
+        "click"
+    ],
+    "homepage": "https://christianessl.at",
+    "authors": [
+        {
+            "name": "Christian Essl",
+            "role": "Developer"
+        }
+    ],
+    "version": "1.0.0",
+    "require": {
+        "typo3/cms-core": "^8.7"
+    },
+    "autoload": {
+        "psr-4": {
+            "ChristianEssl\\Tabmoduleclick\\": "Classes"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "ChristianEssl\\Tabmoduleclick\\Tests\\": "Tests"
+        }
+    },
+    "replace": {
+        "tabmoduleclick": "self.version",
+        "typo3-ter/tabmoduleclick": "self.version"
+    }
+}
