@@ -18,7 +18,12 @@ Currently support TYPO3 8.7 and 9.5 LTS
 ### Installation with composer
 
 `composer require christianessl/tabmoduleclick`. 
+Install the extension in the Extension module.
+
+Clear caches and reload the backend for all changes to take effect.
 
 ### Installation with TER
 
 Open the TYPO3 Extension Manager, search for `tabmoduleclick` and install the extension.
+
+Clear caches and reload the backend for all changes to take effect.
