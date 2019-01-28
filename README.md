@@ -11,7 +11,7 @@ This extension fixes this behaviour and makes working with the TYPO3 backend for
 
 ## Requirements
 
-Currently support TYPO3 8.7 and 9.5 LTS
+Currently supports TYPO3 8.7 and 9.5 LTS
 
 ## Installation
 
