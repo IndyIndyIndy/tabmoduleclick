@@ -1,6 +1,11 @@
 # TYPO3 CMS Extension "tabmoduleclick"
 Open modules in TYPO3 backend in a new browser tab (middle mouse button) and get directed to the intended submodule.
 
+[![Latest Stable Version](https://poser.pugx.org/christianessl/tabmoduleclick/v/stable)](https://packagist.org/packages/christianessl/tabmoduleclick)
+[![Total Downloads](https://poser.pugx.org/christianessl/tabmoduleclick/downloads)](https://packagist.org/packages/christianessl/tabmoduleclick)
+[![Latest Unstable Version](https://poser.pugx.org/christianessl/tabmoduleclick/v/unstable)](https://packagist.org/packages/christianessl/tabmoduleclick)
+[![License](https://poser.pugx.org/christianessl/tabmoduleclick/license)](https://packagist.org/packages/christianessl/tabmoduleclick)
+
 ## What does it do?
 
 If you are like me, you are constantly opening new web pages with the middle mouse button in your browser.
