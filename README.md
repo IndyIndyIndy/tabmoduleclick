@@ -1,6 +1,7 @@
 # TYPO3 CMS Extension "tabmoduleclick"
 Open modules in TYPO3 backend in a new browser tab (middle mouse button) and get directed to the intended submodule.
 
+[![Code Climate](https://codeclimate.com/github/IndyIndyIndy/tabmoduleclick.svg)](https://codeclimate.com/github/IndyIndyIndy/tabmoduleclick)
 [![Latest Stable Version](https://poser.pugx.org/christianessl/tabmoduleclick/v/stable)](https://packagist.org/packages/christianessl/tabmoduleclick)
 [![Total Downloads](https://poser.pugx.org/christianessl/tabmoduleclick/downloads)](https://packagist.org/packages/christianessl/tabmoduleclick)
 [![Latest Unstable Version](https://poser.pugx.org/christianessl/tabmoduleclick/v/unstable)](https://packagist.org/packages/christianessl/tabmoduleclick)
